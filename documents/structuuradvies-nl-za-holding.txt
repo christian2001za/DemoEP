@@ -1,0 +1,102 @@
+STRUCTUURADVIES
+OPTIMALE HOLDINGSTRUCTUUR NEDERLAND – ZUID-AFRIKA
+Optimum Holding Structure: Netherlands – South Africa
+
+Opgesteld door / Prepared by: Edgepoint Advisory B.V. & Edgepoint Advisory (South Africa) (Pty) Ltd
+Opgesteld voor / Prepared for: Familie Brink / Brink Family (confidentieel / confidential)
+Referentie / Reference: EP/NL-ZA/STRUCT/2023/088
+Datum / Date: 3 oktober 2023 / 3 October 2023
+
+---
+
+INLEIDING / INTRODUCTION
+
+Dit advies is opgesteld op verzoek van de heer Cornelis Brink en mevrouw Annelie Brink-Du Plessis in verband met hun voornemen om hun bestaande bedrijfsactiviteiten in Nederland en Zuid-Afrika te herstructureren in een fiscaal efficiënte en toekomstbestendige holdingstructuur.
+
+This advice has been prepared at the request of Mr. Cornelis Brink and Mrs. Annelie Brink-Du Plessis in connection with their intention to restructure their existing business activities in the Netherlands and South Africa into a tax-efficient and future-proof holding structure.
+
+---
+
+HUIDIGE SITUATIE / CURRENT SITUATION
+
+De heer en mevrouw Brink zijn momenteel woonachtig in Amsterdam, Nederland. Zij houden de volgende activa en deelnemingen:
+Mr. and Mrs. Brink currently reside in Amsterdam, the Netherlands, and hold the following assets and participations:
+
+1. Brink Technologie B.V. (Nederland) — software ontwikkelingsbedrijf, omzet ca. EUR 3,2 mln p.j.
+   Brink Technology B.V. (Netherlands) — software development company, turnover approx. EUR 3.2m p.a.
+
+2. Brink Digital (Pty) Ltd (Zuid-Afrika, Kaapstad) — IT-consultancy, omzet ca. ZAR 8,4 mln p.j.
+   Brink Digital (Pty) Ltd (South Africa, Cape Town) — IT consultancy, turnover approx. ZAR 8.4m p.a.
+
+3. Onroerend goed in Franschhoek (ZA) — privé-eigendom, waarde ca. ZAR 5,8 mln.
+   Real estate in Franschhoek (SA) — private ownership, value approx. ZAR 5.8m.
+
+4. Beleggingsportefeuille via ABN AMRO Private Banking — ca. EUR 1,4 mln.
+   Investment portfolio via ABN AMRO Private Banking — approx. EUR 1.4m.
+
+De huidige structuur kent geen holdingvennootschap en alle entiteiten worden direct door de heer en mevrouw Brink gehouden. Dit leidt tot: (a) suboptimale dividendstromen, (b) blootstelling aan persoonlijke aansprakelijkheid, en (c) geen optimale estate planning.
+
+The current structure has no holding company and all entities are held directly by Mr. and Mrs. Brink. This results in: (a) suboptimal dividend flows, (b) exposure to personal liability, and (c) no optimal estate planning.
+
+---
+
+VOORGESTELDE STRUCTUUR / PROPOSED STRUCTURE
+
+Edgepoint adviseert de volgende drielaagse holdingstructuur:
+
+Edgepoint recommends the following three-tier holding structure:
+
+LAAG 1 / TIER 1 — Top Holding (Nederland)
+Brink International Holdings B.V. (nieuw op te richten / newly to be incorporated)
+- Aandeelhouders / Shareholders: C. Brink (50%), A. Brink-Du Plessis (50%)
+- Functie / Function: Centrale houdstermaatschappij, ontvangst dividenden vanuit deelnemingen, debt financing van groepsmaatschappijen
+- Belastingregime / Tax regime: Deelnemingsvrijstelling van toepassing op dividenden en vermogenswinsten uit kwalificerende deelnemingen (Art. 13 Vpb)
+
+LAAG 2 / TIER 2 — Regionale Holdings
+(a) Brink Africa Holdings (Pty) Ltd (nieuw, Namibië / new, Namibia)
+    - Tussenhoudster voor ZA-activiteiten
+    - Intermediary holding company for SA activities
+    - Voordelen / Benefits: Belastingverdrag NL-Namibië (dividendbelasting 0%/5%), SADC-memberschap, stabiel juridisch klimaat
+
+(b) Brink Technology B.V. blijft direct onder de top holding als operationele entiteit in Nederland.
+
+LAAG 3 / TIER 3 — Operationele Entiteiten
+- Brink Digital (Pty) Ltd (ZA) — 100% dochter van Brink Africa Holdings (Pty) Ltd
+- Onroerend goed (ZA) — wordt ingebracht in Brink Digital of aparte property entiteit
+
+---
+
+FISCALE ANALYSE / TAX ANALYSIS
+
+Dividendstroom ZA → Namibië / Dividend Flow SA → Namibia:
+Onder het belastingverdrag Namibië-Zuid-Afrika (1998) geldt een verlaagd bronbelastingtarief van 5% op dividenden van ZA-dochter naar Namibische moeder (mits Namibische entiteit ≥ 10% aandelen houdt). Standaard ZA-dividendbelastingtarief voor niet-inwoners is 20%.
+
+Dividend flow Namibia → Netherlands / Dividendstroom Namibië → Nederland:
+Onder het belastingverdrag Nederland-Namibië (2003) geldt een nultarief op dividenden indien de Nederlandse moeder ten minste 10% van het aandelenkapitaal van de Namibische entiteit houdt (Art. 10, lid 3 van het Verdrag). Dit resulteert in een gecombineerde effectieve bronheffing van slechts 5% op de totale ZA-NL dividendstroom.
+
+Nederlandse deelnemingsvrijstelling / Dutch participation exemption:
+Dividenden ontvangen door Brink International Holdings B.V. zijn volledig vrijgesteld van Nederlandse vennootschapsbelasting (25,8%) op grond van de deelnemingsvrijstelling, mits de deelneming kwalificeert (≥ 5% belang, geen laagbelaste beleggingsdeelneming).
+
+---
+
+AANDACHTSPUNTEN / POINTS OF ATTENTION
+
+1. Substance-vereisten / Substance requirements: Zowel de Nederlandse topholding als de Namibische tussenholding moeten voldoende economische substance hebben (eigen personeel, kantoor, beslissingsbevoegdheid) om niet als kunstmatige constructie te worden aangemerkt onder het Multilateraal Instrument (MLI) en de OESO BEPS-richtlijnen.
+
+2. CFC-regelgeving / CFC rules: Nederland kent CFC-regels die van toepassing kunnen zijn indien de Namibische entiteit als laagbelast wordt aangemerkt. Namibische vennootschapsbelasting bedraagt 32%, waardoor dit risico beperkt is.
+
+3. Transfers pricing / Verrekenprijzen: Alle intercompany-transacties (leningen, managementfees, dienstverlening) moeten at arm's length worden geprijsd conform OESO Transfer Pricing Guidelines.
+
+4. Registratierecht / Transfer duty: De inbreng van het ZA-onroerend goed in een vennootschapsstructuur kan transfer duty (8% voor transacties boven ZAR 1,5 mln) en CGT triggeren in Zuid-Afrika.
+
+---
+
+AANBEVELING / RECOMMENDATION
+
+Edgepoint beveelt aan om de voorgestelde structuur gefaseerd te implementeren. Fase 1: oprichting Nederlandse topholding en Namibische tussenholding. Fase 2: herplaatsing ZA-deelneming onder Namibische tussenholding. Fase 3: evaluatie inbreng onroerend goed.
+
+Edgepoint recommends implementing the proposed structure in phases. Phase 1: incorporation of the Dutch top-holding and Namibian intermediate holding. Phase 2: transfer of the SA participation to the Namibian intermediate holding. Phase 3: evaluation of the real estate contribution.
+
+Edgepoint Advisory B.V.
+Strawinskylaan 411, 1077 XX Amsterdam
+T: +31 20 794 8800 | E: info@edgepoint.nl

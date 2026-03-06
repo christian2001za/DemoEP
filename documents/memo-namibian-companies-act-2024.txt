@@ -1,0 +1,107 @@
+MEMORANDUM
+SUMMARY OF RECENT AMENDMENTS TO THE NAMIBIAN COMPANIES ACT (ACT NO. 28 OF 2004)
+
+To:      Edgepoint Client Base — Clients with Namibian Corporate Entities
+From:    Corporate & Regulatory Team, Edgepoint Trust (Namibia) (Pty) Ltd
+Date:    8 February 2024
+Ref:     EP/NAM/CORP/2024/004
+Subject: Key Amendments to the Companies Act 28 of 2004 — Impact on Corporate Governance
+
+---
+
+1. BACKGROUND
+
+The Companies Amendment Act (No. 14 of 2023) was signed into law by the President of the Republic of Namibia on 14 December 2023 and entered into force on 1 February 2024. The amendments introduce significant changes to the corporate governance requirements applicable to companies registered in Namibia, with particular implications for cross-border holding structures and foreign-owned entities.
+
+This memorandum summarises the most important changes and their practical impact on Edgepoint-managed Namibian entities.
+
+---
+
+2. KEY AMENDMENTS
+
+2.1 MANDATORY RESIDENT DIRECTOR REQUIREMENT (New Section 64A)
+
+Prior law: There was no statutory requirement for a Namibian-registered company to have a director ordinarily resident in Namibia.
+
+New requirement: Effective 1 February 2024, every private company (Pty) Ltd and public company incorporated in Namibia must have at least one (1) director who is ordinarily resident in Namibia. "Ordinarily resident" means that the director's primary residence is in Namibia and that the director spends at least 183 days per calendar year in Namibia.
+
+TRANSITION PERIOD: Companies incorporated before 1 February 2024 have six (6) months (i.e., until 31 July 2024) to comply with this new requirement.
+
+IMPACT FOR EDGEPOINT CLIENTS: All Namibian entities that currently have only foreign directors (e.g., Dutch or South African directors) must appoint a Namibian resident director before 31 July 2024. Edgepoint Trust (Namibia) (Pty) Ltd can provide this service through its resident directorship programme. Please contact us to discuss.
+
+2.2 ENHANCED BENEFICIAL OWNERSHIP REGISTER (Amended Section 55B)
+
+In line with FATF recommendations and Namibia's National Risk Assessment findings, the Companies Amendment Act introduces a mandatory beneficial ownership register to be maintained at the registered office of each company and submitted to the Business and Intellectual Property Authority (BIPA).
+
+Requirements:
+- Every company must maintain an internal register of its ultimate beneficial owners (UBOs), defined as natural persons who ultimately own or control more than 10% (reduced from 25%) of the shares or voting rights of the company.
+- The register must include: full name, date of birth, nationality, residential address, nature of ownership/control, and percentage of ownership/control for each UBO.
+- The register must be submitted to BIPA upon incorporation and updated within 30 days of any change.
+- The register is accessible to BIPA, the Namibia Financial Intelligence Centre (FIC), and law enforcement agencies.
+
+Note: The 10% threshold for Namibian UBO registration differs from the 25% threshold under the Dutch Wwft and South African FICA. Clients with Namibian entities must therefore review their UBO registers specifically for the Namibian 10% threshold.
+
+2.3 ANNUAL COMPLIANCE RETURN (New Section 170A)
+
+All companies are now required to file an Annual Compliance Return with BIPA within 28 days of the company's anniversary of registration. The return must confirm:
+- Current registered address
+- Current directors and their residential addresses
+- Current shareholders and their shareholdings
+- Confirmation that the beneficial ownership register is up to date
+- Confirmation that the company has complied with the resident director requirement
+
+Failure to file the Annual Compliance Return within the prescribed period attracts a fine of NAD 500 per day for the first 30 days, escalating to NAD 1,500 per day thereafter.
+
+2.4 VIRTUAL GENERAL MEETINGS
+
+The Amendment Act formally recognises the right of companies to hold general meetings and board meetings by electronic means (video conference) without any requirement for physical attendance, provided that: (a) all participants can communicate simultaneously with each other; and (b) the requisite notice of meeting is given.
+
+This brings Namibian law in line with post-COVID international practice and mirrors similar provisions in Dutch and South African legislation.
+
+2.5 REVISED FINANCIAL REPORTING THRESHOLDS
+
+The Amendment Act raises the thresholds for mandatory auditor appointment:
+
+- Companies with annual turnover below NAD 10,000,000 (previously NAD 5,000,000) AND fewer than 20 employees are no longer required to have their annual financial statements audited. A review engagement by an independent accountant suffices.
+
+- Companies exceeding either the turnover or employee threshold must still appoint a registered auditor.
+
+- All state-owned enterprises and public companies retain mandatory audit requirements regardless of size.
+
+---
+
+3. ANTICIPATED FURTHER AMENDMENTS
+
+The Ministry of Industrialisation and Trade has published a Green Paper proposing further amendments to the Companies Act for public comment, including:
+
+(a) Introduction of a "societas europaea"-style cross-border merger regime to facilitate intra-SADC corporate restructurings;
+(b) Recognition of single-member companies without any additional formality;
+(c) Modernised provisions for company rescue proceedings.
+
+Edgepoint will issue further guidance when these amendments are finalised.
+
+---
+
+4. ACTION ITEMS FOR CLIENTS
+
+URGENT (before 31 July 2024):
+1. Review whether your Namibian entities have at least one director ordinarily resident in Namibia. If not, contact Edgepoint to arrange a resident director appointment.
+2. Review your beneficial ownership register and update it to reflect the new 10% threshold. Submit the updated register to BIPA if not already done.
+
+ONGOING:
+3. Diarise the Annual Compliance Return filing deadline (28 days after company anniversary) and ensure timely submission.
+4. If annual financial statements are subject to audit, confirm that your auditor is registered with the Public Accountants and Auditors Board (PAAB) of Namibia.
+
+---
+
+5. CONTACT
+
+For queries regarding Namibian corporate compliance, please contact:
+
+Corporate & Regulatory Team
+Edgepoint Trust (Namibia) (Pty) Ltd
+3rd Floor, Maerua Mall Office Tower, Jan Jonker Road, Windhoek
+Tel: +264 61 300 4400
+Email: corporate@edgepoint.com.na
+
+This memorandum is for general information purposes only and does not constitute legal advice. Clients should obtain independent legal advice tailored to their specific circumstances.

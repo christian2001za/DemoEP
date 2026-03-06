@@ -1,0 +1,136 @@
+SERVICE LEVEL AGREEMENT
+EDGEPOINT ADVISORY SERVICES
+
+Agreement Reference: EP/SLA/2024/017
+Date of Agreement: 1 February 2024
+Review Date: 31 January 2025
+
+PARTIES
+
+Service Provider:  Edgepoint Advisory B.V.
+                   Strawinskylaan 411, 1077 XX Amsterdam, The Netherlands
+                   KvK: 68419055
+                   VAT: NL857412836B01
+                   (hereinafter "Edgepoint")
+
+Client:            Hartenberg Capital (Pty) Ltd
+                   Registration No. 2018/342871/07
+                   15 Fricker Road, Illovo, Johannesburg, 2196, South Africa
+                   (hereinafter "the Client")
+
+---
+
+1. SCOPE OF SERVICES
+
+1.1 Edgepoint agrees to provide the following professional advisory services to the Client during the term of this Agreement:
+
+    (a) Corporate Structuring Advisory: Advice on optimal corporate and trust structures for cross-border operations between the Netherlands, South Africa, and Namibia, including analysis of applicable tax treaties and holding company legislation.
+
+    (b) Trust Administration: Administration of the Hartenberg Family Trust (Master's Reference: IT 8834/2019) and any future trusts established at the Client's request, including preparation of trust minutes, financial statements, and regulatory filings.
+
+    (c) Compliance and Regulatory Support: Assistance with compliance obligations under the Financial Intelligence Centre Act (FICA), Common Reporting Standard (CRS), and applicable foreign exchange regulations (SARB exchange control).
+
+    (d) Transaction Support: Due diligence, structuring advice, and post-transaction integration support for mergers, acquisitions, or disposals undertaken by the Client or its associated entities.
+
+    (e) Annual Financial Reporting: Preparation or review of annual financial statements for up to four (4) entities per annum as listed in Schedule A.
+
+1.2 Services not listed in clause 1.1 fall outside the scope of this Agreement and will be provided under separate engagement letters subject to separate fee arrangements.
+
+---
+
+2. SERVICE LEVELS AND RESPONSE TIMES
+
+2.1 Standard Queries
+    Edgepoint will acknowledge receipt of standard written queries within 1 business day and provide a substantive response within 5 business days of receipt.
+
+2.2 Urgent Queries
+    Queries flagged as urgent by the Client will be acknowledged within 4 hours during business hours (Monday–Friday, 08:00–18:00 CET) and responded to within 1 business day.
+
+2.3 Regulatory Deadlines
+    Where a Client query relates to an imminent regulatory or filing deadline, Edgepoint will prioritise the matter and confirm the timeline for response within 2 hours of receipt.
+
+2.4 Business Hours
+    Standard business hours for the purposes of this Agreement are Monday to Friday, 08:00–18:00 Central European Time (CET). Edgepoint is not obligated to respond outside these hours, except as agreed in writing.
+
+---
+
+3. FEES AND PAYMENT TERMS
+
+3.1 Retainer Fee
+    The Client shall pay Edgepoint a monthly retainer of EUR 3,500 (exclusive of VAT) covering services described in clauses 1.1(a) through 1.1(c). The retainer is payable in advance on the first business day of each calendar month.
+
+3.2 Transaction and Project Fees
+    Services under clause 1.1(d) (Transaction Support) and clause 1.1(e) (Annual Financial Reporting) are billed on a time-and-materials basis at the following hourly rates:
+    - Partner / Director:        EUR 380 per hour
+    - Senior Manager:            EUR 260 per hour
+    - Manager:                   EUR 195 per hour
+    - Senior Associate:          EUR 145 per hour
+
+3.3 Disbursements
+    Out-of-pocket expenses (travel, courier, registration fees, third-party search costs) are billed at cost plus 10% administration fee and will appear on monthly invoices.
+
+3.4 Payment Terms
+    Invoices are payable within 14 calendar days of invoice date. Late payments shall accrue interest at 1.5% per month (18% per annum).
+
+3.5 Fee Adjustments
+    Edgepoint reserves the right to adjust fee rates with 60 days' written notice. The Client may terminate the Agreement within the notice period if the adjustment is not acceptable.
+
+---
+
+4. CONFIDENTIALITY
+
+4.1 Each party agrees to keep confidential all proprietary and commercially sensitive information received from the other party in connection with this Agreement.
+
+4.2 Edgepoint shall treat all Client information as strictly confidential and shall not disclose such information to third parties without prior written consent, except as required by law, regulation, or professional obligation (e.g., mandatory reporting under FICA or CRS).
+
+4.3 Edgepoint's confidentiality obligations survive termination of this Agreement for a period of five (5) years.
+
+---
+
+5. INTELLECTUAL PROPERTY
+
+5.1 All work product produced by Edgepoint in the performance of services under this Agreement (including reports, memoranda, models, and analyses) is the property of the Client upon full payment of applicable fees.
+
+5.2 Edgepoint retains the right to use aggregated, anonymised insights derived from work performed for the Client for internal training and quality purposes.
+
+---
+
+6. LIMITATION OF LIABILITY
+
+6.1 Edgepoint's total aggregate liability to the Client under this Agreement shall not exceed the total fees paid by the Client in the 12 months preceding the event giving rise to the claim.
+
+6.2 Edgepoint shall not be liable for indirect or consequential loss, loss of profit, or loss of business opportunity.
+
+6.3 Nothing in this clause limits liability for fraud, wilful misconduct, or death or personal injury caused by negligence.
+
+---
+
+7. TERM AND TERMINATION
+
+7.1 This Agreement commences on 1 February 2024 and continues for an initial term of twelve (12) months.
+
+7.2 Either party may terminate this Agreement after the initial term by giving 60 days' written notice.
+
+7.3 Either party may terminate this Agreement immediately upon written notice if the other party: (a) commits a material breach that is not remedied within 14 days of written notice; (b) becomes insolvent or enters into liquidation; or (c) is convicted of a criminal offence.
+
+---
+
+8. GOVERNING LAW
+
+This Agreement is governed by the laws of the Netherlands. Disputes shall be submitted to the exclusive jurisdiction of the courts of Amsterdam.
+
+---
+
+SIGNED
+
+For Edgepoint Advisory B.V.:
+_______________________________
+Name:  J.P. de Waal
+Title: Managing Director
+Date:  1 February 2024
+
+For Hartenberg Capital (Pty) Ltd:
+_______________________________
+Name:  R.A. Hartenberg
+Title: CEO
+Date:  1 February 2024

@@ -1,0 +1,103 @@
+MEMORANDUM
+
+Aan:      Alle cliënten van Edgepoint Advisory B.V. met Nederlandse entiteiten
+Van:      Compliance & Regulatory Affairs, Edgepoint Advisory B.V.
+Datum:    15 januari 2024
+Betreft:  Update UBO-register: recente wijzigingen en actievereisten
+Ref.:     EP/NL/UBO/2024/001
+
+---
+
+1. AANLEIDING
+
+Op 22 november 2022 heeft het Hof van Justitie van de Europese Unie (HvJEU) arrest gewezen in de gevoegde zaken C-37/20 en C-601/20 (WM en Sovim SA / Luxembourg Business Registers). Het Hof oordeelde dat de openbare toegang tot het UBO-register onverenigbaar is met het grondrecht op eerbiediging van het privéleven en de bescherming van persoonsgegevens (artikelen 7 en 8 van het EU-Handvest). Als gevolg hiervan hebben diverse EU-lidstaten, waaronder Luxemburg en Nederland, de openbare toegang tot het UBO-register opgeschort of beperkt.
+
+Dit memorandum geeft een overzicht van de huidige stand van zaken in Nederland, de geldende registratieverplichtingen, en de acties die cliënten dienen te ondernemen.
+
+---
+
+2. ACHTERGROND: HET NEDERLANDSE UBO-REGISTER
+
+Het UBO-register is in Nederland ingevoerd per 27 september 2020 op grond van de Wet ter voorkoming van witwassen en financieren van terrorisme (Wwft), ter implementatie van de Vierde en Vijfde Anti-witwasrichtlijn (AMLD4 en AMLD5).
+
+Registratieplichtige entiteiten zijn onder meer:
+- BV's en NV's
+- Stichtingen
+- Verenigingen
+- Maatschappen, commanditaire vennootschappen (CV's) en vennootschappen onder firma (VOF's)
+- Coöperaties en onderlinge waarborgmaatschappijen
+- Trusts en soortgelijke juridische constructies (artikel 10a Wwft — aparte regeling)
+
+---
+
+3. ACTUELE STAND VAN ZAKEN NA HET HvJEU-ARREST
+
+3.1 Openbare toegang opgeschort
+Per 11 november 2022 heeft de Kamer van Koophandel (KvK) de openbare raadpleegbaarheid van het UBO-register opgeschort. Het register bestaat nog steeds en de registratieplicht blijft onverminderd van kracht.
+
+3.2 Beperkte toegang voor bevoegde autoriteiten
+Bevoegde autoriteiten (Belastingdienst, FIOD, FIU-Nederland, notarissen en advocaten met wettelijke meldplicht, financiële instellingen in het kader van CDD) hebben nog steeds toegang tot het register in het kader van hun wettelijke taken.
+
+3.3 Nieuwe wetgeving in voorbereiding
+Het Ministerie van Financiën heeft aangekondigd dat nieuwe wetgeving in voorbereiding is die voorziet in een systeem van "gerechtvaardigde toegang" conform de herziene AMLD6-richtlijn (verwachte inwerkingtreding: 2025). Tot die tijd blijft de huidige (beperkte) situatie van kracht.
+
+---
+
+4. GELDENDE REGISTRATIEVERPLICHTINGEN
+
+Ondanks de beperkte openbare toegang zijn entiteiten nog steeds verplicht:
+
+(a) Initiële registratie: Alle registratieplichtige entiteiten dienen hun UBO's ingeschreven te hebben in het UBO-register bij de KvK.
+
+(b) Actualisering: Wijzigingen in de uiteindelijk belanghebbende (naam, adres, geboortedatum, nationaliteit, aard en omvang van het economisch belang) moeten binnen 7 werkdagen na de wijziging worden doorgegeven aan de KvK.
+
+(c) Bewaarplicht: Entiteiten zijn verplicht adequate, nauwkeurige en actuele informatie over hun UBO's bij te houden in hun eigen administratie (artikel 10b Wwft).
+
+---
+
+5. WIE IS EEN UBO?
+
+Een UBO (Ultimate Beneficial Owner / Uiteindelijk Belanghebbende) is de natuurlijke persoon die:
+- Direct of indirect meer dan 25% van de aandelen of stemrechten houdt, OF
+- Direct of indirect meer dan 25% economisch belang heeft, OF
+- Op andere wijze feitelijke zeggenschap uitoefent over de entiteit (bijv. via bijzondere statutaire rechten of contractuele afspraken).
+
+Indien geen natuurlijke persoon aan bovenstaande criteria voldoet, dienen de hogere leidinggevenden van de entiteit als pseudo-UBO te worden geregistreerd.
+
+---
+
+6. VEELVOORKOMENDE PROBLEMEN EN AANDACHTSPUNTEN
+
+Op basis van onze praktijkervaring signaleren wij de volgende veelvoorkomende knelpunten bij cliënten:
+
+(a) Indirect belang via stichtingen of trusts: Cliënten onderschatten regelmatig de doorrekening van indirect belang via stichtingen (bijv. STAK's of familiefondsstructuren). Edgepoint heeft bij meerdere cliënten geconstateerd dat het indirecte belang onjuist is berekend.
+
+(b) Holdingketens met meerdere lagen: Bij complexe holdingstructuren dient het belang door alle lagen heen te worden doorgerekend. Een 40%-belang in een holding die zelf 70% houdt in de registratieplichtige entiteit, resulteert in een indirect belang van 28% — boven de 25%-drempel.
+
+(c) Niet-geregistreerde wijzigingen: Personele wijzigingen (nieuwe aandeelhouders, overlijden van UBO) worden niet tijdig doorgegeven aan de KvK. De maximale boete voor niet-naleving bedraagt EUR 22.500 per overtreding.
+
+(d) Passende toegang voor trustkantoren: Trustkantoren en andere dienstverleners die UBO-informatie verwerken, dienen zelf ook te voldoen aan hun eigen registratieplicht op grond van de Wet toezicht trustkantoren 2018 (Wtt 2018).
+
+---
+
+7. ACTIEVEREISTEN VOOR CLIËNTEN
+
+Edgepoint verzoekt alle cliënten met Nederlandse entiteiten de volgende stappen te ondernemen vóór 1 april 2024:
+
+1. Controleer of alle entiteiten in uw Nederlandse structuur zijn geregistreerd in het UBO-register.
+2. Verifieer of de geregistreerde informatie (belang, aard van het belang, persoonsgegevens) nog actueel en correct is.
+3. Meld eventuele wijzigingen in UBO's of aandeelhoudersstructuren die hebben plaatsgevonden na de initiële registratie.
+4. Informeer Edgepoint over geplande transacties (aandelenemissies, -overdrachten, reorganisaties) die de UBO-situatie kunnen wijzigen.
+
+---
+
+8. CONTACT
+
+Voor vragen over de UBO-registratie of assistentie bij het bijwerken van uw registratie kunt u contact opnemen met:
+
+Compliance & Regulatory Affairs
+Edgepoint Advisory B.V.
+T: +31 20 794 8800
+E: compliance@edgepoint.nl
+
+Dit memorandum is uitsluitend informatief van aard. Raadpleeg uw eigen juridische adviseur voor advies dat is toegespitst op uw specifieke situatie.

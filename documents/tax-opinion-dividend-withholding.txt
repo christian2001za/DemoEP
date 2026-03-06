@@ -1,0 +1,109 @@
+TAX OPINION
+DIVIDEND WITHHOLDING TAX UNDER THE NETHERLANDS-NAMIBIA TAX TREATY
+
+Prepared by: Edgepoint Advisory B.V. (Tax Practice)
+Prepared for: Brink International Holdings B.V. (Client reference: BR-2023-01)
+Reference: EP/NL/TAX/2023/156
+Date: 19 December 2023
+Classification: Privileged and Confidential — Attorney-Client Communication
+
+---
+
+1. SCOPE AND PURPOSE
+
+This tax opinion has been prepared at the request of Brink International Holdings B.V. ("the Client") in connection with the establishment of a cross-border holding structure involving the Netherlands, Namibia, and South Africa, as further described in our Structuuradvies dated 3 October 2023 (Reference EP/NL-ZA/STRUCT/2023/088).
+
+Specifically, this opinion addresses the following questions:
+
+(a) What rate of dividend withholding tax (bronbelasting / dividendbelasting) applies to dividends paid from a Namibian private company to its Dutch parent company under the Netherlands-Namibia Tax Convention?
+
+(b) What are the anti-avoidance provisions and substance requirements applicable to such dividend flows?
+
+(c) What documentation is required to substantiate treaty eligibility?
+
+This opinion is based on: the Convention between the Kingdom of the Netherlands and the Republic of Namibia for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (signed 14 March 2002, entered into force 31 October 2003) ("the Treaty"); Namibian domestic tax legislation (Income Tax Act No. 24 of 1981 as amended); Dutch domestic tax legislation (Wet op de dividendbelasting 1965, Wet op de vennootschapsbelasting 1969); and the OECD Model Tax Convention Commentary (2017 version).
+
+---
+
+2. FACTUAL BACKGROUND
+
+The Client, Brink International Holdings B.V., is a newly incorporated Dutch private limited company (besloten vennootschap) resident for tax purposes in the Netherlands. It holds 100% of the shares in Brink Africa Holdings (Pty) Ltd ("Brink Namibia"), a Namibian private company resident for tax purposes in Namibia.
+
+Brink Namibia, in turn, holds 100% of the shares in Brink Digital (Pty) Ltd ("Brink SA"), a South African private company. Brink Namibia receives dividends from Brink SA and intends to on-distribute those dividends upward to Brink International Holdings B.V.
+
+---
+
+3. NAMIBIAN WITHHOLDING TAX ON DIVIDENDS — DOMESTIC RATE
+
+Under Section 35A of the Namibian Income Tax Act, withholding tax on dividends paid by a Namibian company to a non-resident shareholder is levied at 10% of the gross dividend amount. This is the domestic statutory rate in the absence of any applicable tax treaty.
+
+---
+
+4. TREATY REDUCTION — ARTICLE 10 OF THE NETHERLANDS-NAMIBIA TREATY
+
+Article 10 of the Treaty provides as follows (paraphrased):
+
+"(1) Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State may be taxed in that other State.
+
+(2) However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed:
+    (a) 0 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 10 per cent of the capital of the company paying the dividends;
+    (b) 10 per cent of the gross amount of the dividends in all other cases."
+
+CONCLUSION ON RATE: Because Brink International Holdings B.V. holds 100% (i.e., more than 10%) of the share capital of Brink Namibia, Article 10(2)(a) of the Treaty applies. The applicable withholding tax rate on dividends paid by Brink Namibia to Brink International Holdings B.V. is therefore 0% (zero), provided that Brink International Holdings B.V. qualifies as the "beneficial owner" of the dividends.
+
+---
+
+5. BENEFICIAL OWNERSHIP ANALYSIS
+
+5.1 The concept of "beneficial owner" is not defined in the Treaty. Under the OECD Commentary (2017), the beneficial owner is the person who has the right to use and enjoy the dividend free from contractual or legal obligations to pass it on to another person. A conduit company acting as a mere intermediary, with no real economic relationship to the income, does not qualify as a beneficial owner.
+
+5.2 In our assessment, Brink International Holdings B.V. will qualify as the beneficial owner of dividends received from Brink Namibia, provided that:
+    (a) It has genuine decision-making authority over the use of the dividend income;
+    (b) It does not pass on substantially all dividends to third parties under a pre-arranged scheme;
+    (c) It has economic substance in the Netherlands (see Section 6 below).
+
+5.3 We note that the Dutch tax authority (Belastingdienst) has increasingly scrutinised passive holding companies for beneficial ownership purposes, particularly following the implementation of ATAD1 and ATAD2 (Anti-Tax Avoidance Directives). An advance tax ruling (ATR) from the Dutch tax authority is available and is strongly recommended to provide certainty on treaty eligibility.
+
+---
+
+6. SUBSTANCE REQUIREMENTS
+
+To defend the 0% withholding tax position and to avoid classification of Brink International Holdings B.V. as a "letterbox company" under Directive 2011/16/EU and the Dutch Substance Rules (Besluit van 12 juni 2019, nr. 2019/13003), Brink International Holdings B.V. must demonstrate:
+
+(a) At least half of its statutory directors are residents of, or based in, the Netherlands;
+(b) The board meetings at which material decisions are made take place in the Netherlands;
+(c) The company maintains a Dutch bank account from which it genuinely operates;
+(d) The company is registered with the Dutch Chamber of Commerce and properly maintained;
+(e) The company incurs genuine Dutch payroll costs or service costs of at least EUR 100,000 per annum (the "substance minimum" under the Dutch policy framework).
+
+Failing to meet these requirements does not automatically disqualify treaty access, but substantially increases the risk of challenge by the Dutch and/or Namibian tax authorities.
+
+---
+
+7. WITHHOLDING TAX ON DIVIDENDS: SOUTH AFRICA → NAMIBIA
+
+For completeness, we note that dividends paid from Brink SA (South Africa) to Brink Namibia are subject to South African dividends tax (Section 64E of the Income Tax Act, 1962) at a domestic rate of 20% for non-resident shareholders. Under the South Africa-Namibia Double Taxation Agreement (DTA), the rate is reduced to 5% for qualifying corporate shareholders holding at least 10% of the share capital of the distributing company.
+
+The combined effective dividend withholding tax on a dividend flowing from Brink SA → Brink Namibia → Brink International Holdings B.V. is therefore:
+- SA dividends tax on SA → Namibia distribution: 5%
+- Namibia withholding tax on Namibia → NL distribution: 0%
+- Total effective leakage: 5% (on the Namibia-level distribution)
+
+This compares favourably to the alternative of a direct SA → NL dividend flow, which would incur 20% SA dividends tax reduced to 5% under the SA-NL DTA (but subject to Dutch CFC and GAAR analysis).
+
+---
+
+8. RECOMMENDATIONS
+
+1. Obtain a Dutch advance tax ruling (ATR) confirming treaty eligibility and beneficial ownership status for Brink International Holdings B.V.
+2. Implement Dutch substance requirements before the first dividend is declared.
+3. Prepare and maintain documentation demonstrating that Brink International Holdings B.V. is the beneficial owner of dividends (board minutes, substance evidence, banking records).
+4. File required withholding tax exemption application with the Namibia Inland Revenue Directorate before the first dividend payment.
+
+---
+
+9. DISCLAIMER
+
+This opinion is based on law and administrative practice as at the date hereof. Tax law is subject to change. This opinion does not constitute a guarantee of any particular tax outcome and should not be relied upon as a substitute for ongoing professional advice.
+
+Edgepoint Advisory B.V. | Tax Practice

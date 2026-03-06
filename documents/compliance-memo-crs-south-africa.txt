@@ -1,0 +1,107 @@
+COMPLIANCE MEMORANDUM
+COMMON REPORTING STANDARD (CRS) — REPORTING OBLIGATIONS FOR SOUTH AFRICAN FINANCIAL INSTITUTIONS
+
+To:      All Client-Facing Partners and Directors, Edgepoint Advisory Group
+From:    Compliance Department, Edgepoint Advisory (South Africa) (Pty) Ltd
+Date:    7 February 2024
+Ref:     EP/COMP/CRS/2024/002
+Subject: CRS Reporting Obligations, SARS Submission Deadlines, and Client Impact
+
+---
+
+1. PURPOSE
+
+This memorandum provides an updated overview of the Common Reporting Standard (CRS) obligations applicable to South African financial institutions, recent amendments to the Tax Administration Act (TAA), and practical guidance for affected clients. It should be read in conjunction with the SARS External Guide on CRS (Version 3.1, January 2024).
+
+---
+
+2. BACKGROUND
+
+The Common Reporting Standard is an information exchange framework developed by the OECD requiring participating jurisdictions to automatically exchange financial account information with one another. South Africa adopted CRS through amendments to the Tax Administration Act, 28 of 2011 (Sections 26A–26H), and first reporting commenced in 2017.
+
+South Africa is currently party to Competent Authority Agreements with 109 jurisdictions, including the Netherlands, Namibia, Germany, the United Kingdom, France, and the United States (under FATCA, which operates under a separate IGA regime).
+
+---
+
+3. WHO IS A REPORTING FINANCIAL INSTITUTION?
+
+Under South African CRS regulations, a Reporting Financial Institution (RFI) includes:
+
+(a) Depository institutions (banks, credit unions);
+(b) Custodial institutions (brokerages, asset managers holding financial assets for others);
+(c) Investment entities — including trusts and funds where professional investment managers exercise discretionary authority over the assets; and
+(d) Specified insurance companies offering cash value products.
+
+IMPORTANT NOTE FOR CLIENTS: Discretionary trusts administered by professional trustees (including those managed by Edgepoint Trust entities) may qualify as Investment Entities under category (c) and are therefore subject to CRS reporting obligations. This is a frequently misunderstood point.
+
+---
+
+4. WHAT MUST BE REPORTED?
+
+RFIs are required to identify and report on Reportable Accounts — financial accounts held by tax residents of other CRS-participating jurisdictions. The information to be reported includes:
+
+(a) Account holder name, address, tax identification number (TIN), and date of birth;
+(b) Account number;
+(c) Account balance or value at year-end;
+(d) Total gross interest, dividends, and other income credited to the account during the calendar year;
+(e) Total gross proceeds from the sale or redemption of financial assets.
+
+For Passive Non-Financial Entities (Passive NFEs) — which include most holding companies and dormant entities — the beneficial owners (controlling persons) must be identified and reported.
+
+---
+
+5. DUE DILIGENCE PROCEDURES
+
+5.1 New Accounts (opened after 1 January 2016)
+    Institutions must obtain a self-certification from the account holder at the time of account opening. The self-certification must include the account holder's country of tax residence and TIN.
+
+5.2 Pre-Existing Accounts
+    For pre-existing accounts, institutions were required to complete due diligence by specific deadlines (generally by 31 December 2017 for high-value individual accounts and 31 December 2018 for low-value and entity accounts).
+
+5.3 Change in Circumstances
+    If an institution becomes aware of a change in circumstances that affects the CRS status of an account holder (e.g., a client acquires tax residency in a new jurisdiction), the self-certification must be updated within 90 days.
+
+---
+
+6. SOUTH AFRICAN REPORTING DEADLINES 2024
+
+    31 May 2024:   Submission of CRS reports to SARS via the SARS eFiling portal (XML format, OECD CRS XML Schema v2.0)
+    31 May 2024:   Submission of FATCA reports (US persons)
+    31 March 2024: Internal completion of account reviews and self-certification collection for new accounts opened in 2023
+
+Penalties for non-compliance: SARS may impose administrative penalties of ZAR 16,000 per month per reportable account for late or incorrect submissions, in addition to potential criminal liability under the TAA.
+
+---
+
+7. IMPACT ON EDGEPOINT-MANAGED STRUCTURES
+
+The following categories of Edgepoint-managed structures are most likely to be affected:
+
+(a) Discretionary family trusts with non-resident beneficiaries or settlors: Must assess whether the trust qualifies as a Reporting FI (Investment Entity). If yes, the trust must report details of any reportable beneficiaries.
+
+(b) Holding companies with foreign shareholders: The foreign shareholder details (if from a CRS-participating jurisdiction) must be reported by the South African entity where it qualifies as an Investment Entity.
+
+(c) Investment portfolios managed on behalf of non-resident clients: Directly reportable under the custodial/investment entity definitions.
+
+---
+
+8. ACTION ITEMS FOR CLIENT ADVISERS
+
+1. Review client list and identify all structures that may qualify as Reporting FIs.
+2. Confirm that self-certifications are on file for all account holders/beneficiaries (especially those with non-SA tax residency).
+3. Flag any client where the TIN is missing, unclear, or where there has been a change in tax residency since the last review.
+4. Consult Compliance Department for any complex structures involving multi-jurisdictional ownership chains.
+5. All CRS-related queries from clients should be directed through the Compliance Department and not handled unilaterally.
+
+---
+
+9. CONTACT
+
+For queries regarding CRS compliance, please contact:
+
+Compliance Department
+Edgepoint Advisory (South Africa) (Pty) Ltd
+Email: compliance@edgepoint.co.za
+Tel: +27 21 488 7700
+
+This memorandum does not constitute legal or tax advice. Clients should obtain independent advice tailored to their specific circumstances.

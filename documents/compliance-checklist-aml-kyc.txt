@@ -1,0 +1,154 @@
+COMPLIANCE CHECKLIST
+ANTI-MONEY LAUNDERING (AML) / KNOW YOUR CUSTOMER (KYC)
+CLIENT ONBOARDING — EDGEPOINT ADVISORY GROUP
+
+Reference: EP/COMP/KYC/FORM/2024
+Version: 4.2 (January 2024)
+Applicable to: All new clients onboarded by Edgepoint Advisory B.V. (Netherlands), Edgepoint Advisory (South Africa) (Pty) Ltd, and Edgepoint Trust (Namibia) (Pty) Ltd
+
+Regulatory basis:
+- Netherlands: Wet ter voorkoming van witwassen en financieren van terrorisme (Wwft), DNB/AFM Guidelines
+- South Africa: Financial Intelligence Centre Act (FICA), Act No. 38 of 2001 (as amended by FICA Amendment Act No. 1 of 2017)
+- Namibia: Financial Intelligence Act (FIA), Act No. 13 of 2012
+
+---
+
+SECTION A: CLIENT IDENTIFICATION — NATURAL PERSONS
+
+Complete this section for all individual clients, beneficial owners, and controlling persons.
+
+A1. PERSONAL IDENTIFICATION
+[ ] Full legal name (as per identity document): ________________________
+[ ] Date of birth: ________________________
+[ ] Place of birth: ________________________
+[ ] Nationality(ies): ________________________
+[ ] Identity document type (passport / national ID / driver's licence):
+    Document number: ________________________
+    Issuing country: ________________________
+    Expiry date: ________________________
+[ ] Certified copy of identity document obtained and filed
+[ ] Home address (residential, not PO Box): ________________________
+[ ] Proof of residential address obtained (utility bill / bank statement, not older than 3 months)
+[ ] Tax Identification Number (TIN) and country of issue: ________________________
+[ ] Country(ies) of tax residence: ________________________
+
+A2. POLITICALLY EXPOSED PERSON (PEP) SCREENING
+[ ] Client screened against PEP database (WorldCheck / Refinitiv)
+[ ] Result: [ ] No match   [ ] Possible match (see notes)   [ ] Confirmed PEP
+
+If confirmed PEP:
+[ ] Enhanced Due Diligence (EDD) completed
+[ ] Senior Management approval obtained
+[ ] Source of wealth documentation obtained and reviewed
+[ ] Ongoing monitoring frequency increased to: ________________________
+
+A3. SANCTIONS SCREENING
+[ ] Client screened against OFAC SDN list
+[ ] Client screened against UN Security Council Consolidated List
+[ ] Client screened against EU Consolidated Sanctions List
+[ ] Client screened against UK OFSI Financial Sanctions List
+[ ] Client screened against South African Financial Sanctions List (FIC)
+[ ] Result: [ ] Clear   [ ] Match — escalated to Compliance Department
+
+A4. ADVERSE MEDIA SCREENING
+[ ] Client screened for adverse media (Google / WorldCheck / Dow Jones Factiva)
+[ ] Result: [ ] Clear   [ ] Concerns identified (describe): ________________________
+
+---
+
+SECTION B: CLIENT IDENTIFICATION — LEGAL ENTITIES
+
+Complete this section for all corporate clients, trusts, partnerships, and other legal entities.
+
+B1. ENTITY DETAILS
+[ ] Full legal name of entity: ________________________
+[ ] Jurisdiction of incorporation: ________________________
+[ ] Registration / company number: ________________________
+[ ] Date of incorporation: ________________________
+[ ] Registered address: ________________________
+[ ] Nature of business / principal activities: ________________________
+[ ] Regulated entity? [ ] Yes (regulator and licence number): ________________________   [ ] No
+
+B2. CONSTITUTIONAL DOCUMENTS
+[ ] Certificate of incorporation or equivalent obtained
+[ ] Memorandum and Articles of Association / Trust Deed / Partnership Agreement obtained
+[ ] Shareholder register / member register obtained (current, certified)
+[ ] List of directors / trustees obtained (current)
+[ ] Latest annual financial statements obtained (if available)
+[ ] For trusts: Master's Letter of Authority or equivalent obtained
+
+B3. BENEFICIAL OWNERSHIP AND CONTROL
+[ ] Ownership and control structure mapped and documented (organogram where applicable)
+[ ] All UBOs (>25% direct or indirect beneficial ownership) identified:
+    UBO 1: Name _______________________ Ownership ___% [ ] ID verified
+    UBO 2: Name _______________________ Ownership ___% [ ] ID verified
+    UBO 3: Name _______________________ Ownership ___% [ ] ID verified
+[ ] If no UBO meets >25% threshold, senior managing officials identified as pseudo-UBOs
+[ ] PEP/Sanctions screening completed for all UBOs (see Section A2–A4)
+
+B4. SOURCE OF FUNDS AND WEALTH
+[ ] Source of funds of the transaction/relationship identified: ________________________
+[ ] Source of funds corroborated with documentation (bank statements, sale agreements, etc.)
+[ ] Source of wealth of UBO(s) identified: ________________________
+[ ] Source of wealth plausible and consistent with client profile: [ ] Yes   [ ] No (explain)
+
+---
+
+SECTION C: RISK ASSESSMENT
+
+C1. RISK FACTORS
+
+Geographic Risk:
+[ ] Client / UBO connected to high-risk jurisdiction (FATF grey/black list)? [ ] Yes   [ ] No
+    If yes, specify: ________________________
+
+Product/Service Risk:
+[ ] Does the engagement involve high-risk products (trusts, shell companies, cash-intensive businesses)?
+    [ ] Yes (describe): ________________________   [ ] No
+
+Client Type Risk:
+[ ] PEP involved? [ ] Yes   [ ] No
+[ ] Cash-based or unregulated business? [ ] Yes   [ ] No
+[ ] Complex ownership structure? [ ] Yes   [ ] No
+
+C2. OVERALL RISK RATING
+[ ] LOW — Standard monitoring applies. Annual review.
+[ ] MEDIUM — Enhanced documentation required. Semi-annual review.
+[ ] HIGH — Full Enhanced Due Diligence (EDD) required. Senior Management approval required. Quarterly review.
+
+---
+
+SECTION D: ENHANCED DUE DILIGENCE (EDD) — HIGH RISK CLIENTS
+
+Complete this section for clients rated HIGH in Section C2, or any client who is a PEP.
+
+[ ] In-person meeting with client conducted or verified video call
+[ ] Source of wealth narrative documented and corroborated
+[ ] Independent verification of business activities obtained (e.g., press cuttings, website, third-party references)
+[ ] Full bank reference obtained
+[ ] Explanation for any inconsistencies or unusual circumstances documented
+[ ] Compliance Director approval: ________________________ Date: ________________________
+
+---
+
+SECTION E: ONGOING MONITORING
+
+[ ] Client risk profile review scheduled:
+    Next review date: ________________________
+[ ] Transaction monitoring alert thresholds configured in compliance system
+[ ] Client to be screened against sanctions/PEP lists on the following schedule:
+    [ ] Monthly   [ ] Quarterly   [ ] Annually
+[ ] Client advised of obligation to notify Edgepoint of any material changes to their circumstances (change of address, new beneficial owners, new jurisdictions of operation, etc.)
+
+---
+
+SECTION F: SIGN-OFF
+
+Completed by: ________________________ (Name & Title)
+Date: ________________________
+Reviewed by: ________________________ (Name & Title — must be Manager or above)
+Date: ________________________
+Compliance Department approval (required for HIGH risk only): ________________________
+Date: ________________________
+
+Retention: This completed checklist must be retained in the client file for a minimum of 5 years from the date of completion, or 5 years after the termination of the client relationship, whichever is later.

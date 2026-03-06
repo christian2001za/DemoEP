@@ -1,0 +1,129 @@
+NOTULEN VAN DE BESTUURSVERGADERING
+VAN DER BERG HOLDINGS B.V.
+
+KvK-nummer: 72841953
+Vergaderdatum: 22 november 2023
+Locatie: Kantoor Edgepoint Advisory, Strawinskylaan 411, 1077 XX Amsterdam
+Aanvang: 10:00 uur
+Sluiting: 13:45 uur
+
+Referentienummer: EP/NL/MIN/2023/119
+
+---
+
+AANWEZIG
+
+Bestuurders:
+- De heer Pieter Adriaan van den Berg (Uitvoerend directeur / CEO)
+- Mevrouw Elise Jacoba van den Berg-Lourens (Financieel directeur / CFO)
+- De heer Marcus Jan Olivier (Niet-uitvoerend bestuurder, onafhankelijk)
+
+Adviseurs:
+- De heer Jan-Pieter de Waal (Edgepoint Advisory B.V., corporate structuuradviseur)
+- Mevrouw Suzanne Hofman (Edgepoint Advisory B.V., belastingadviseur)
+- De heer Thomas Vermeer (Van Eck & Vermeer Advocaten, juridisch adviseur)
+
+Notulist: Mevrouw Anita Bosman (secretaris)
+
+---
+
+AGENDA
+
+1. Opening en vaststelling quorum
+2. Goedkeuring notulen vorige vergadering (15 augustus 2023)
+3. Herstructurering aandelenbelangen: ZA-dochterondernemingen
+4. Oprichting Namibische holdingentiteit
+5. Dividenddistributie Q3 2023
+6. Update compliance en UBO-register
+7. Rondvraag en sluiting
+
+---
+
+1. OPENING EN VASTSTELLING QUORUM
+
+De voorzitter, de heer Van den Berg, opent de vergadering om 10:00 uur en stelt vast dat alle drie de bestuurders aanwezig zijn en dat de vergadering rechtsgeldig bijeen is.
+
+---
+
+2. GOEDKEURING NOTULEN VORIGE VERGADERING
+
+De notulen van de bestuursvergadering van 15 augustus 2023 worden door alle aanwezigen als juist erkend en door de voorzitter en de secretaris ondertekend. De notulen worden vastgesteld zonder opmerkingen.
+
+---
+
+3. HERSTRUCTURERING AANDELENBELANGEN: ZA-DOCHTERONDERNEMINGEN
+
+De heer De Waal van Edgepoint Advisory geeft een presentatie over de voorgestelde herstructurering van de Zuid-Afrikaanse dochterondernemingen. De huidige structuur kent de volgende entiteiten onder Van den Berg Holdings B.V.:
+
+- VdB Properties (Pty) Ltd (Reg. Nr. 2017/384921/07) – vastgoed, Kaapstad
+- VdB Agri Holdings (Pty) Ltd (Reg. Nr. 2015/112034/07) – landbouw, Stellenbosch
+- Berg Logistics SA (Pty) Ltd (Reg. Nr. 2019/556278/07) – transport, Johannesburg
+
+De heer De Waal legt uit dat de huidige directe aandeelhoudersstructuur vanuit de Nederlandse B.V. leidt tot complexe dividendstromen met dubbele bronbelasting onder het belastingverdrag Nederland-Zuid-Afrika. Hij stelt voor om een tussenholding te plaatsen, hetzij in Mauritius, hetzij via een Namibische entiteit.
+
+Mevrouw Hofman voegt toe dat een Namibische holding, specifiek een Private Company (Pty) Ltd geïncorporeerd in Windhoek, voordelen biedt vanwege het belastingverdrag tussen Namibië en Nederland, alsmede de SADC-preferenties voor regionale handel.
+
+Na discussie besluiten de bestuurders als volgt:
+
+BESLUIT 3.1: Het bestuur geeft Edgepoint Advisory B.V. de opdracht een gedetailleerd herstructureringsvoorstel op te stellen, inclusief fiscale impactanalyse, voor de volgende vergadering. Edgepoint dient ook juridisch advies in te winnen bij een Namibische advocatenkantoor omtrent de oprichting van een Namibische holdingentiteit.
+
+Stemuitslag: Unaniem aangenomen.
+
+---
+
+4. OPRICHTING NAMIBISCHE HOLDINGENTITEIT
+
+In vervolg op agenda-item 3 bespreekt de vergadering de praktische stappen voor de oprichting van een nieuwe Namibische entiteit. De heer Vermeer legt uit dat de Companies Act (Act No. 28 of 2004) van Namibië van toepassing is, en dat de registratieprocedure via het Business and Intellectual Property Authority (BIPA) normaal gesproken vier tot zes weken in beslag neemt.
+
+Vereisten voor oprichting:
+- Minimaal één aandeelhouder (kan rechtspersoon zijn)
+- Minimaal één directeur (moet normaal verblijf in Namibië hebben of een resident agent aanstellen)
+- Maatschappelijk kapitaal: geen minimum vereist
+- Naam: "VdB African Holdings (Pty) Ltd" (voorlopig voorstel)
+
+BESLUIT 4.1: Het bestuur machtigt Edgepoint Trust (Namibia) (Pty) Ltd om op te treden als resident agent en initiële directeur van de nieuw op te richten Namibische entiteit, in afwachting van benoeming van een vaste directeur.
+
+BESLUIT 4.2: Het budget voor de oprichtingskosten en eerste jaar administratiekosten wordt vastgesteld op maximaal EUR 8.500 (exclusief btw en lokale belastingen).
+
+Stemuitslag besluit 4.1: Unaniem aangenomen.
+Stemuitslag besluit 4.2: Unaniem aangenomen.
+
+---
+
+5. DIVIDENDDISTRIBUTIE Q3 2023
+
+Mevrouw Van den Berg-Lourens presenteert de financiële resultaten over het derde kwartaal 2023. De geconsolideerde netto-inkomsten van Van den Berg Holdings B.V. over Q3 bedragen EUR 1.247.350 na belastingen.
+
+Zij stelt voor een interim-dividend uit te keren aan de aandeelhouders van Van den Berg Holdings B.V. als volgt:
+- Totaal dividend: EUR 600.000
+- Dividend per aandeel: EUR 12,00 (50.000 aandelen uitstaand)
+
+BESLUIT 5.1: Het bestuur keurt een interim-dividend goed van EUR 12,00 per aandeel over het derde kwartaal 2023, met uitbetalingsdatum 15 december 2023. De CFO wordt gemachtigd de benodigde betalingsopdrachten te verstrekken.
+
+Stemuitslag: Unaniem aangenomen.
+
+---
+
+6. UPDATE COMPLIANCE EN UBO-REGISTER
+
+Mevrouw Hofman informeert het bestuur over de laatste ontwikkelingen met betrekking tot het UBO-register. Per 1 september 2023 zijn de registratieverplichtingen voor trusts en fondsen voor gemene rekening uitgebreid. Zij wijst erop dat de vennootschap haar UBO-registratie moet controleren en mogelijk moet bijwerken in verband met de recente wijziging van de aandeelhoudersstructuur.
+
+De huidige UBO's van Van den Berg Holdings B.V. zijn:
+1. De heer Pieter Adriaan van den Berg (58% indirect belang via Stichting Van den Berg Familiefonds)
+2. Mevrouw Elise Jacoba van den Berg-Lourens (22% direct belang)
+
+BESLUIT 6.1: De directie draagt Edgepoint Advisory op de UBO-registratie te controleren en zo nodig bij te werken vóór 31 januari 2024. Eventuele wijzigingen worden ter goedkeuring aan het bestuur voorgelegd.
+
+---
+
+7. RONDVRAAG EN SLUITING
+
+Er zijn geen verdere punten ter bespreking. De voorzitter sluit de vergadering om 13:45 uur en dankt alle aanwezigen voor hun bijdrage.
+
+Vastgesteld en ondertekend te Amsterdam, 22 november 2023.
+
+_______________________________         _______________________________
+P.A. van den Berg (Voorzitter)           E.J. van den Berg-Lourens (CFO)
+
+_______________________________
+M.J. Olivier (Niet-uitvoerend bestuurder)

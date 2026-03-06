@@ -1,0 +1,116 @@
+DUE DILIGENCE REPORT
+PROPOSED ACQUISITION OF CAPE VINEYARDS (PTY) LTD
+
+Prepared by: Edgepoint Advisory (South Africa) (Pty) Ltd
+Prepared for: Meridian Capital Partners B.V. (Acquirer)
+Reference: EP/SA/DD/2024/003
+Date: 18 January 2024
+Confidentiality: STRICTLY CONFIDENTIAL — Not for distribution
+
+---
+
+EXECUTIVE SUMMARY
+
+Edgepoint Advisory (South Africa) (Pty) Ltd ("Edgepoint") was mandated by Meridian Capital Partners B.V. ("the Acquirer") to conduct a financial and legal due diligence investigation into Cape Vineyards (Pty) Ltd (Registration No. 2009/041872/07) ("the Target") in connection with the proposed acquisition of a 75% equity interest in the Target for a purchase consideration of ZAR 42,000,000.
+
+The due diligence was conducted between 8 January 2024 and 17 January 2024. Our work comprised a review of financial statements, contracts, property title deeds, employee records, regulatory licences, and management interviews.
+
+Overall assessment: CONDITIONAL PROCEED. The Target is a viable acquisition subject to resolution of the material findings noted in Section 4 of this report.
+
+---
+
+1. TARGET OVERVIEW
+
+1.1 Corporate Information
+    - Registered name: Cape Vineyards (Pty) Ltd
+    - Registration number: 2009/041872/07
+    - Registered address: Helshoogte Road, Stellenbosch, Western Cape, 7600
+    - Directors: Mr. Andries Jacobus Joubert (Managing Director), Ms. Patricia Nomvula Dlamini (Financial Director)
+    - Shareholders: A.J. Joubert Family Trust (75%), P.N. Dlamini (25%)
+    - Financial year end: 28 February
+
+1.2 Business Description
+    Cape Vineyards operates a 48-hectare wine estate in Stellenbosch. The business comprises three revenue streams: (a) bulk wine production sold to co-operatives (approx. 55% of revenue); (b) bottled estate wines sold under the "Helshoogte Reserve" label through retail and export channels (approx. 30% of revenue); and (c) agri-tourism including cellar tours and a tasting room (approx. 15% of revenue).
+
+1.3 Financial Snapshot (FY2023, audited)
+    - Revenue: ZAR 18,340,000
+    - EBITDA: ZAR 4,210,000 (23.0% margin)
+    - Net profit after tax: ZAR 2,650,000
+    - Total assets: ZAR 61,800,000 (predominantly land and vineyards)
+    - Total liabilities: ZAR 22,400,000
+    - Net asset value: ZAR 39,400,000
+
+---
+
+2. FINANCIAL DUE DILIGENCE
+
+2.1 Revenue Quality
+    Revenue is diversified but exposed to vintage risk. FY2021 and FY2022 were impacted by drought, resulting in a 22% and 14% revenue decline respectively. FY2023 represents a recovery year. Edgepoint notes that the FY2023 figures include a one-off insurance recovery of ZAR 850,000 relating to the FY2022 frost damage claim, which inflates the reported EBITDA margin.
+
+    Adjusted EBITDA (excluding one-off items): ZAR 3,360,000 (18.3% margin).
+
+2.2 Debt Structure
+    The Target has two outstanding credit facilities:
+    (a) Mortgage bond with Nedbank Ltd secured over the farm property — outstanding balance ZAR 14,200,000, interest rate prime + 1.5% (currently 13.25% p.a.), repayable by March 2031.
+    (b) Equipment finance facility with ABSA Bank — outstanding balance ZAR 2,100,000, interest rate 12.5% p.a., repayable by June 2026.
+
+    Both facilities contain change-of-control clauses that will require lender consent prior to completion of the proposed transaction.
+
+2.3 Working Capital
+    Working capital position is adequate. Debtors' days average 38 days (industry benchmark: 30-45 days). Creditors' days average 52 days, which is slightly elevated. Stock (primarily bottled wine and bulk wine inventory) is carried at cost of ZAR 3,840,000. An independent stock count was not performed; this is flagged as a risk.
+
+---
+
+3. LEGAL AND PROPERTY DUE DILIGENCE
+
+3.1 Immovable Property
+    The farm is registered under Title Deed T. 18923/2009 in the Deeds Registry of the Western Cape. The property is subject to a registered mortgage bond in favour of Nedbank Ltd and a notarial general covering bond.
+
+    SALIENT FINDING: A servitude for access exists over the northern portion of the property in favour of the adjacent farm (Erf 4421, Stellenbosch). The servitude was not disclosed by the seller during the initial information exchange and was identified during the title deed search. This servitude may limit future development options for the agri-tourism component.
+
+3.2 Material Contracts
+    Key contracts reviewed:
+    (a) Supply agreement with Distell Ltd for bulk wine — 3-year agreement expiring October 2025, minimum supply obligation of 180 tonnes per annum;
+    (b) Retail distribution agreement with Cape Fine Wines (Pty) Ltd — terminable with 6 months' notice by either party;
+    (c) Export agency agreement with Vins du Monde SARL (France) — covers EU and UK markets, commission 12% of FOB value.
+
+3.3 Employment
+    The Target employs 34 permanent staff and engages approximately 60-80 seasonal workers during harvest. All permanent employees are on standard contracts. No current CCMA or Labour Court disputes noted.
+
+---
+
+4. MATERIAL FINDINGS AND RISKS
+
+Risk 1 — CHANGE-OF-CONTROL CLAUSES (HIGH):
+    Bank consents required from Nedbank and ABSA before transaction completion. Failure to obtain consent could result in acceleration of debt. Acquirer to engage banks prior to signing.
+
+Risk 2 — UNDISCLOSED SERVITUDE (MEDIUM):
+    The access servitude over the northern portion limits development rights. A price adjustment may be warranted. Recommend an independent property valuation reflecting the servitude.
+
+Risk 3 — INDEPENDENT STOCK VERIFICATION (MEDIUM):
+    No independent stock count was conducted. Given that inventory represents ~ZAR 3.84m on the balance sheet, Edgepoint recommends a physical stock count as a condition precedent.
+
+Risk 4 — DISTELL CONTRACT EXPIRY (MEDIUM):
+    The primary bulk wine supply agreement expires October 2025. Renewal is not guaranteed. Acquirer should seek a warranty from the seller confirming the contract is renewable, or factor in potential revenue shortfall in the purchase price model.
+
+Risk 5 — VINTAGE RISK (LOW-MEDIUM):
+    Wine production is inherently exposed to climatic events. Acquirer should investigate agricultural insurance coverage.
+
+---
+
+5. RECOMMENDED CONDITIONS PRECEDENT
+
+1. Obtain written consent from Nedbank and ABSA confirming no change-of-control default;
+2. Conduct independent physical stock count and reconcile to management accounts;
+3. Obtain independent property valuation reflecting registered servitude;
+4. Seller to provide warranty regarding Distell contract renewal prospects;
+5. Final review of FY2024 interim management accounts (for the 9 months ending 30 November 2023).
+
+---
+
+DISCLAIMER
+
+This report has been prepared solely for the use of Meridian Capital Partners B.V. and may not be relied upon by any third party. Edgepoint's work does not constitute an audit and does not provide absolute assurance. Edgepoint accepts no liability to any party other than the Acquirer.
+
+Edgepoint Advisory (South Africa) (Pty) Ltd
+Registered office: 12th Floor, 2 Longmarket Street, Cape Town, 8001
