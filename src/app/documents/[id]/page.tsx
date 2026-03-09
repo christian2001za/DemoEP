@@ -36,8 +36,27 @@ const LANGUAGE_FLAGS: Record<string, string> = {
   'Dutch/English': '🇳🇱🇬🇧',
 }
 
-function renderContent(content: string, highlight: string | null) {
-  if (!highlight) {
+function findPassage(content: string, highlight: string): [number, number] | null {
+  const h = highlight.trim()
+  if (!h) return null
+
+  // Try exact match first
+  const exact = content.indexOf(h)
+  if (exact !== -1) return [exact, exact + h.length]
+
+  // Whitespace-flexible match: build a regex from the first few words
+  const words = h.replace(/\s+/g, ' ').split(' ').filter(Boolean)
+  if (words.length < 2) return null
+  const anchor = words.slice(0, Math.min(6, words.length))
+  const pattern = anchor.map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('\\s+')
+  const m = new RegExp(pattern, 'i').exec(content)
+  if (!m) return null
+
+  return [m.index!, Math.min(m.index! + h.length + 20, content.length)]
+}
+
+function renderContent(content: string, passage: [number, number] | null) {
+  if (!passage) {
     return (
       <pre className="text-sm text-slate-700 leading-relaxed whitespace-pre-wrap font-[inherit] break-words">
         {content}
@@ -45,25 +64,12 @@ function renderContent(content: string, highlight: string | null) {
     )
   }
 
-  const idx = content.indexOf(highlight)
-  if (idx === -1) {
-    // fallback: no exact match, just render plain
-    return (
-      <pre className="text-sm text-slate-700 leading-relaxed whitespace-pre-wrap font-[inherit] break-words">
-        {content}
-      </pre>
-    )
-  }
-
-  const before = content.slice(0, idx)
-  const match = content.slice(idx, idx + highlight.length)
-  const after = content.slice(idx + highlight.length)
-
+  const [start, end] = passage
   return (
     <pre className="text-sm text-slate-700 leading-relaxed whitespace-pre-wrap font-[inherit] break-words">
-      {before}
-      <mark id="highlight-anchor" className="bg-yellow-200 rounded-sm px-0.5 text-slate-900">{match}</mark>
-      {after}
+      {content.slice(0, start)}
+      <mark id="highlight-anchor" className="bg-yellow-200 rounded-sm px-0.5 text-slate-900">{content.slice(start, end)}</mark>
+      {content.slice(end)}
     </pre>
   )
 }
@@ -91,14 +97,15 @@ export default function DocumentDetailPage() {
 
   // Scroll to highlighted passage once document is rendered
   useEffect(() => {
-    if (!loading && highlight) {
+    if (!loading && doc && highlight) {
       document.getElementById('highlight-anchor')?.scrollIntoView({ behavior: 'smooth', block: 'center' })
     }
-  }, [loading, highlight])
+  }, [loading, doc, highlight])
 
   const docType = doc?.metadata?.document_type ?? 'Document'
   const typeColor = TYPE_COLORS[docType] ?? 'bg-slate-100 text-slate-700 border-slate-200'
   const flag = doc?.metadata?.language ? LANGUAGE_FLAGS[doc.metadata.language] : null
+  const passage = doc && highlight ? findPassage(doc.content, highlight) : null
 
   return (
     <div className="min-h-screen bg-slate-50">
@@ -202,8 +209,8 @@ export default function DocumentDetailPage() {
               <div className="flex items-center justify-between px-6 py-3 border-b border-slate-100">
                 <span className="text-xs font-medium text-slate-500 uppercase tracking-wider">Document Content</span>
                 <div className="flex items-center gap-3">
-                  {highlight && (
-                    <span className="text-xs text-amber-600 font-medium">Passage highlighted</span>
+                  {passage && (
+                    <span className="text-xs text-amber-600 font-medium">↓ Passage highlighted</span>
                   )}
                   <span className="text-xs text-slate-400">
                     {doc.content.split(/\s+/).length.toLocaleString()} words
@@ -211,7 +218,7 @@ export default function DocumentDetailPage() {
                 </div>
               </div>
               <div className="px-6 py-6 overflow-auto">
-                {renderContent(doc.content, highlight)}
+                {renderContent(doc.content, passage)}
               </div>
             </div>
           </>

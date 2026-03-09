@@ -1,10 +1,12 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useCallback } from 'react'
 import Link from 'next/link'
 import { SearchBar } from '@/components/SearchBar'
 import { SearchResults } from '@/components/SearchResults'
 import type { SearchResult } from '@/types'
+
+type SearchMode = 'semantic' | 'keyword'
 
 const EXAMPLE_QUERIES = [
   'Who has final say in deciding who receives money from the trust?',
@@ -21,8 +23,9 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [hasSearched, setHasSearched] = useState(false)
+  const [searchMode, setSearchMode] = useState<SearchMode>('semantic')
 
-  async function handleSearch(query: string) {
+  const runSearch = useCallback(async (query: string, mode: SearchMode) => {
     setIsLoading(true)
     setError(null)
     setCurrentQuery(query)
@@ -31,7 +34,7 @@ export default function Home() {
       const response = await fetch('/api/search', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ query, limit: 5 }),
+        body: JSON.stringify({ query, limit: 5, mode }),
       })
 
       if (!response.ok) {
@@ -47,6 +50,17 @@ export default function Home() {
       setResults([])
     } finally {
       setIsLoading(false)
+    }
+  }, [])
+
+  async function handleSearch(query: string) {
+    await runSearch(query, searchMode)
+  }
+
+  async function handleModeChange(newMode: SearchMode) {
+    setSearchMode(newMode)
+    if (currentQuery) {
+      await runSearch(currentQuery, newMode)
     }
   }
 
@@ -86,7 +100,7 @@ export default function Home() {
       <main className="max-w-5xl mx-auto px-6 py-10">
         {/* Hero */}
         {!hasSearched && (
-          <div className="text-center mb-10">
+          <div className="text-center mb-8">
             <h1 className="text-3xl font-bold text-slate-900 mb-3">
               Find exactly what you need
             </h1>
@@ -95,6 +109,32 @@ export default function Home() {
             </p>
           </div>
         )}
+
+        {/* Search mode toggle */}
+        <div className="flex justify-center mb-5">
+          <div className="flex bg-slate-100 rounded-full p-1 gap-1">
+            <button
+              onClick={() => handleModeChange('keyword')}
+              className={`px-5 py-2 rounded-full text-sm font-medium transition-all ${
+                searchMode === 'keyword'
+                  ? 'bg-white shadow text-slate-900'
+                  : 'text-slate-500 hover:text-slate-700'
+              }`}
+            >
+              Keyword Search
+            </button>
+            <button
+              onClick={() => handleModeChange('semantic')}
+              className={`px-5 py-2 rounded-full text-sm font-medium transition-all ${
+                searchMode === 'semantic'
+                  ? 'bg-blue-700 shadow text-white'
+                  : 'text-slate-500 hover:text-slate-700'
+              }`}
+            >
+              ✦ AI Semantic Search
+            </button>
+          </div>
+        </div>
 
         {/* Search bar */}
         <div className={hasSearched ? 'mb-6' : 'mb-8'}>
@@ -128,7 +168,7 @@ export default function Home() {
 
         {/* Results */}
         {hasSearched && !isLoading && (
-          <SearchResults results={results} query={currentQuery} />
+          <SearchResults results={results} query={currentQuery} searchMode={searchMode} />
         )}
 
         {/* Loading skeleton */}

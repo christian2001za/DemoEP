@@ -69,6 +69,51 @@ export async function hybridSearch(
   return (data ?? []) as SearchResult[]
 }
 
+// Pure keyword search — uses PostgreSQL FTS without semantic understanding.
+// Intentionally "dumb": no stemming (simple config), no synonyms, no embeddings.
+// Used for demo contrast to show where semantic search adds value.
+export async function keywordSearch(
+  query: string,
+  matchCount = 5
+): Promise<SearchResult[]> {
+  const supabase = createAdminClient()
+
+  const terms = query
+    .toLowerCase()
+    .replace(/[?.,!;:'"\-()/]/g, ' ')
+    .split(/\s+/)
+    .filter((w) => w.length >= 3)
+    .join(' | ')
+
+  if (!terms) return []
+
+  const { data, error } = await supabase
+    .from('document_chunks')
+    .select('id, document_id, content, chunk_index, metadata, documents!inner(id, title, filename, metadata)')
+    .textSearch('content', terms, { type: 'plain', config: 'simple' })
+    .limit(matchCount)
+
+  if (error) {
+    throw new Error(`Keyword search failed: ${error.message}`)
+  }
+
+  return (data ?? []).map((row, idx) => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const doc = row.documents as any
+    return {
+      chunk_id: row.id,
+      document_id: row.document_id,
+      title: doc.title,
+      filename: doc.filename,
+      chunk_content: row.content,
+      chunk_index: row.chunk_index,
+      similarity: Math.max(0.1, 1 - idx * 0.12),
+      doc_metadata: doc.metadata,
+      chunk_metadata: row.metadata,
+    }
+  })
+}
+
 // Pure semantic search — kept for comparison / fallback
 export async function semanticSearch(
   query: string,

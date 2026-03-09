@@ -11,6 +11,7 @@ import path from 'path'
 import { createClient } from '@supabase/supabase-js'
 import OpenAI from 'openai'
 import { config } from 'dotenv'
+import { chunkText } from '../src/lib/chunker'
 
 // Load .env.local
 config({ path: path.join(process.cwd(), '.env.local') })
@@ -39,135 +40,90 @@ const DOCUMENT_METADATA: Record<string, {
   language: string
   date: string
 }> = {
-  'trust-deed-namibian-family-trust.txt': {
+  'trust-deed-steenkamp.txt': {
     title: 'Trust Deed — Steenkamp Family Trust (Namibia)',
     document_type: 'Trust Deed',
     jurisdiction: 'Namibia',
     language: 'English',
     date: '2019-03-14',
   },
-  'notulen-van-der-berg-holdings.txt': {
+  'EP-BM-2023-022.txt': {
     title: 'Notulen Bestuursvergadering — Van der Berg Holdings B.V.',
     document_type: 'Board Minutes',
     jurisdiction: 'Netherlands',
     language: 'Dutch',
     date: '2023-11-22',
   },
-  'due-diligence-cape-vineyards.txt': {
+  'EP-DD-2024-003.txt': {
     title: 'Due Diligence Report — Cape Vineyards (Pty) Ltd',
     document_type: 'Due Diligence Report',
     jurisdiction: 'South Africa',
     language: 'English',
     date: '2024-01-18',
   },
-  'compliance-memo-crs-south-africa.txt': {
+  'EP-CM-2024-007.txt': {
     title: 'Compliance Memo — CRS Reporting Obligations (South Africa)',
     document_type: 'Compliance Memo',
     jurisdiction: 'South Africa',
     language: 'English',
     date: '2024-02-07',
   },
-  'structuuradvies-nl-za-holding.txt': {
+  'EP-SA-2023-010.txt': {
     title: 'Structuuradvies — NL-ZA Holding Structure (Brink Family)',
     document_type: 'Structure Advice',
     jurisdiction: 'Netherlands / South Africa / Namibia',
     language: 'Dutch/English',
     date: '2023-10-03',
   },
-  'service-level-agreement-edgepoint.txt': {
+  'service-level-agreement.txt': {
     title: 'Service Level Agreement — Edgepoint & Hartenberg Capital',
     document_type: 'Service Level Agreement',
     jurisdiction: 'Netherlands',
     language: 'English',
     date: '2024-02-01',
   },
-  'memo-ubo-register-update-2024.txt': {
+  'EP-RM-2024-006.txt': {
     title: 'Memo — UBO Register Update Nederland 2024',
     document_type: 'Regulatory Memo',
     jurisdiction: 'Netherlands',
     language: 'Dutch',
     date: '2024-01-15',
   },
-  'trust-amendment-beneficiary.txt': {
+  'EP-TA-2023-012.txt': {
     title: 'Trust Amendment — Addition of Beneficiary (Steenkamp Family Trust)',
     document_type: 'Trust Amendment',
     jurisdiction: 'Namibia',
     language: 'English',
     date: '2023-09-12',
   },
-  'tax-opinion-dividend-withholding.txt': {
+  'EP-TO-2023-019.txt': {
     title: 'Tax Opinion — Dividend Withholding Tax NL-Namibia Treaty',
     document_type: 'Tax Opinion',
     jurisdiction: 'Netherlands / Namibia',
     language: 'English',
     date: '2023-12-19',
   },
-  'board-resolution-director-appointment.txt': {
+  'board-resolution-vdb-2024.txt': {
     title: 'Board Resolution — Appointment of Directors, VdB African Holdings (Namibia)',
     document_type: 'Board Resolution',
     jurisdiction: 'Namibia',
     language: 'English',
     date: '2024-03-15',
   },
-  'compliance-checklist-aml-kyc.txt': {
+  'compliance-checklist-aml.txt': {
     title: 'Compliance Checklist — AML/KYC Client Onboarding',
     document_type: 'Compliance Checklist',
     jurisdiction: 'Netherlands / South Africa / Namibia',
     language: 'English',
     date: '2024-01-01',
   },
-  'memo-namibian-companies-act-2024.txt': {
+  'EP-RM-2024-008.txt': {
     title: 'Memo — Amendments to the Namibian Companies Act 2024',
     document_type: 'Regulatory Memo',
     jurisdiction: 'Namibia',
     language: 'English',
     date: '2024-02-08',
   },
-}
-
-// ─── Chunker ──────────────────────────────────────────────────────────────
-
-function chunkText(text: string, chunkSize = 500, overlap = 100): string[] {
-  const paragraphs = text
-    .replace(/\r\n/g, '\n')
-    .split(/\n{2,}/)
-    .map((p) => p.trim())
-    .filter((p) => p.length > 0)
-
-  const chunks: string[] = []
-  let currentWords: string[] = []
-
-  for (const paragraph of paragraphs) {
-    const paragraphWords = paragraph.split(/\s+/)
-
-    if (paragraphWords.length > chunkSize) {
-      if (currentWords.length > 0) {
-        chunks.push(currentWords.join(' '))
-        currentWords = currentWords.slice(-overlap)
-      }
-      for (let i = 0; i < paragraphWords.length; i += chunkSize - overlap) {
-        const slice = paragraphWords.slice(i, i + chunkSize)
-        chunks.push(slice.join(' '))
-      }
-      currentWords = paragraphWords.slice(-overlap)
-      continue
-    }
-
-    if (currentWords.length + paragraphWords.length > chunkSize) {
-      if (currentWords.length > 0) {
-        chunks.push(currentWords.join(' '))
-        currentWords = currentWords.slice(-overlap)
-      }
-    }
-
-    currentWords.push(...paragraphWords)
-  }
-
-  if (currentWords.length > 0) {
-    chunks.push(currentWords.join(' '))
-  }
-
-  return chunks
 }
 
 // ─── Embedding generation (batched) ─────────────────────────────────────────

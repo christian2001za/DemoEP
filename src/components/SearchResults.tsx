@@ -9,6 +9,7 @@ import type { SearchResult } from '@/types'
 interface SearchResultsProps {
   results: SearchResult[]
   query: string
+  searchMode?: 'semantic' | 'keyword'
 }
 
 const TYPE_COLORS: Record<string, string> = {
@@ -30,11 +31,12 @@ function getTypeColor(docType: string): string {
 }
 
 function highlightText(text: string, query: string): string {
-  if (!query) return text
+  const withBreaks = text.replace(/\n/g, '<br />')
+  if (!query) return withBreaks
   const terms = query.split(/\s+/).filter((t) => t.length > 2)
-  if (terms.length === 0) return text
+  if (terms.length === 0) return withBreaks
   const regex = new RegExp(`(${terms.map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`, 'gi')
-  return text.replace(regex, '<mark class="bg-yellow-200 rounded-sm px-0.5">$1</mark>')
+  return withBreaks.replace(regex, '<mark class="bg-yellow-200 rounded-sm px-0.5">$1</mark>')
 }
 
 function RelevanceBar({ score, maxScore }: { score: number; maxScore: number }) {
@@ -52,7 +54,7 @@ function RelevanceBar({ score, maxScore }: { score: number; maxScore: number }) 
   )
 }
 
-export function SearchResults({ results, query }: SearchResultsProps) {
+export function SearchResults({ results, query, searchMode = 'semantic' }: SearchResultsProps) {
   const [expanded, setExpanded] = useState<string | null>(null)
 
   if (results.length === 0) {
@@ -71,9 +73,18 @@ export function SearchResults({ results, query }: SearchResultsProps) {
 
   return (
     <div className="space-y-4 w-full max-w-3xl mx-auto">
-      <p className="text-sm text-slate-500">
-        {results.length} result{results.length !== 1 ? 's' : ''} for <span className="font-medium text-slate-700">"{query}"</span>
-      </p>
+      <div className="flex items-center gap-3">
+        <p className="text-sm text-slate-500">
+          {results.length} result{results.length !== 1 ? 's' : ''} for <span className="font-medium text-slate-700">"{query}"</span>
+        </p>
+        <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${
+          searchMode === 'semantic'
+            ? 'bg-blue-100 text-blue-700'
+            : 'bg-slate-100 text-slate-600'
+        }`}>
+          {searchMode === 'semantic' ? '✦ AI Semantic Search' : 'Keyword Search'}
+        </span>
+      </div>
 
       {results.map((result, index) => {
         const docType = result.doc_metadata?.document_type ?? 'Document'
@@ -144,7 +155,7 @@ export function SearchResults({ results, query }: SearchResultsProps) {
                     {isExpanded ? '↑ Collapse' : '↓ Show full passage'}
                   </button>
                   <Link
-                    href={`/documents/${result.document_id}?highlight=${encodeURIComponent(result.chunk_content.slice(0, 120))}`}
+                    href={`/documents/${result.document_id}?highlight=${encodeURIComponent(result.chunk_content)}`}
                     onClick={(e) => e.stopPropagation()}
                     className="text-xs text-blue-600 hover:text-blue-800 font-medium"
                   >
