@@ -1,16 +1,21 @@
 'use client'
 
-import { useState, FormEvent } from 'react'
+import { useState, FormEvent, useEffect } from 'react'
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
 
 interface SearchBarProps {
   onSearch: (query: string) => void
   isLoading: boolean
+  externalQuery?: string
 }
 
-export function SearchBar({ onSearch, isLoading }: SearchBarProps) {
+export function SearchBar({ onSearch, isLoading, externalQuery }: SearchBarProps) {
   const [query, setQuery] = useState('')
+
+  useEffect(() => {
+    if (externalQuery !== undefined) setQuery(externalQuery)
+  }, [externalQuery])
 
   function handleSubmit(e: FormEvent) {
     e.preventDefault()

@@ -6,7 +6,7 @@ import { SearchBar } from '@/components/SearchBar'
 import { SearchResults } from '@/components/SearchResults'
 import type { SearchResult } from '@/types'
 
-type SearchMode = 'semantic' | 'keyword'
+type SearchMode = 'semantic' | 'keyword' | 'chat'
 
 const EXAMPLE_QUERIES = [
   'Who has final say in deciding who receives money from the trust?',
@@ -19,7 +19,9 @@ const EXAMPLE_QUERIES = [
 
 export default function Home() {
   const [results, setResults] = useState<SearchResult[]>([])
+  const [chatResult, setChatResult] = useState<{ answer: string; sources: SearchResult[] } | null>(null)
   const [currentQuery, setCurrentQuery] = useState('')
+  const [searchBarQuery, setSearchBarQuery] = useState<string | undefined>(undefined)
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [hasSearched, setHasSearched] = useState(false)
@@ -31,23 +33,39 @@ export default function Home() {
     setCurrentQuery(query)
 
     try {
-      const response = await fetch('/api/search', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ query, limit: 5, mode }),
-      })
-
-      if (!response.ok) {
+      if (mode === 'chat') {
+        setChatResult(null)
+        setResults([])
+        const response = await fetch('/api/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ query }),
+        })
+        if (!response.ok) {
+          const data = await response.json()
+          throw new Error(data.error ?? 'Chat failed')
+        }
         const data = await response.json()
-        throw new Error(data.error ?? 'Search failed')
+        setChatResult(data)
+      } else {
+        setChatResult(null)
+        const response = await fetch('/api/search', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ query, limit: 5, mode }),
+        })
+        if (!response.ok) {
+          const data = await response.json()
+          throw new Error(data.error ?? 'Search failed')
+        }
+        const data = await response.json()
+        setResults(data.results)
       }
-
-      const data = await response.json()
-      setResults(data.results)
       setHasSearched(true)
     } catch (err) {
       setError(err instanceof Error ? err.message : 'An unexpected error occurred')
       setResults([])
+      setChatResult(null)
     } finally {
       setIsLoading(false)
     }
@@ -133,12 +151,22 @@ export default function Home() {
             >
               ✦ AI Semantic Search
             </button>
+            <button
+              onClick={() => handleModeChange('chat')}
+              className={`px-5 py-2 rounded-full text-sm font-medium transition-all ${
+                searchMode === 'chat'
+                  ? 'bg-indigo-600 shadow text-white'
+                  : 'text-slate-500 hover:text-slate-700'
+              }`}
+            >
+              ✦ Chat
+            </button>
           </div>
         </div>
 
         {/* Search bar */}
         <div className={hasSearched ? 'mb-6' : 'mb-8'}>
-          <SearchBar onSearch={handleSearch} isLoading={isLoading} />
+          <SearchBar onSearch={handleSearch} isLoading={isLoading} externalQuery={searchBarQuery} />
         </div>
 
         {/* Example queries — only shown before first search */}
@@ -149,7 +177,7 @@ export default function Home() {
               {EXAMPLE_QUERIES.map((q) => (
                 <button
                   key={q}
-                  onClick={() => handleSearch(q)}
+                  onClick={() => { setSearchBarQuery(q); handleSearch(q) }}
                   className="text-sm px-3 py-1.5 rounded-full border border-slate-200 bg-white text-slate-600 hover:border-blue-400 hover:text-blue-700 hover:bg-blue-50 transition-colors shadow-sm"
                 >
                   {q}
@@ -166,8 +194,30 @@ export default function Home() {
           </div>
         )}
 
-        {/* Results */}
-        {hasSearched && !isLoading && (
+        {/* Chat result */}
+        {hasSearched && !isLoading && searchMode === 'chat' && chatResult && (
+          <div className="max-w-3xl mx-auto space-y-6">
+            <div className="bg-white rounded-xl border border-indigo-100 shadow-sm p-6">
+              <div className="flex items-center gap-2 mb-4">
+                <span className="text-xs font-semibold uppercase tracking-wider text-indigo-600 bg-indigo-50 px-2.5 py-1 rounded-full">✦ AI Antwoord</span>
+              </div>
+              <p className="text-slate-800 text-base leading-relaxed whitespace-pre-wrap">
+                {chatResult.answer.split(/\*\*(.+?)\*\*/g).map((part, i) =>
+                  i % 2 === 1 ? <strong key={i}>{part}</strong> : part
+                )}
+              </p>
+            </div>
+            {chatResult.sources.length > 0 && (
+              <div>
+                <p className="text-xs text-slate-400 uppercase tracking-wider font-medium mb-3 px-1">Geraadpleegde bronnen</p>
+                <SearchResults results={chatResult.sources} query={currentQuery} searchMode="semantic" />
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* Search results */}
+        {hasSearched && !isLoading && searchMode !== 'chat' && (
           <SearchResults results={results} query={currentQuery} searchMode={searchMode} />
         )}
 
