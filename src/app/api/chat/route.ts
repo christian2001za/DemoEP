@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import Anthropic from '@anthropic-ai/sdk'
 import { hybridSearch } from '@/lib/search'
+import { rerankResults } from '@/lib/reranker'
 
 const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
 
@@ -11,7 +12,12 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Query is required' }, { status: 400 })
     }
 
-    const sources = await hybridSearch(query.trim(), 3)
+    const trimmedQuery = query.trim()
+
+    // Fetch more candidates than we'll use so the reranker has room to reorder
+    const raw = await hybridSearch(trimmedQuery, 8)
+    const reranked = await rerankResults(trimmedQuery, raw)
+    const sources = reranked.slice(0, 3)
 
     if (sources.length === 0) {
       return NextResponse.json({
@@ -38,7 +44,7 @@ Regels:
       messages: [
         {
           role: 'user',
-          content: `Vraag: ${query}\n\nDocumentfragmenten:\n\n${context}`,
+          content: `Vraag: ${trimmedQuery}\n\nDocumentfragmenten:\n\n${context}`,
         },
       ],
     })

@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { hybridSearch, keywordSearch } from '@/lib/search'
+import { rerankResults } from '@/lib/reranker'
 import type { SearchResponse } from '@/types'
 
 export async function POST(request: NextRequest) {
@@ -14,13 +15,23 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    const results = mode === 'keyword'
-      ? await keywordSearch(query.trim(), limit)
-      : await hybridSearch(query.trim(), limit)
+    const trimmedQuery = query.trim()
+
+    // Fetch more candidates than needed so the reranker has room to reorder
+    const fetchLimit = mode === 'keyword' ? limit : Math.min(limit + 5, 10)
+
+    const raw = mode === 'keyword'
+      ? await keywordSearch(trimmedQuery, fetchLimit)
+      : await hybridSearch(trimmedQuery, fetchLimit)
+
+    // Rerank (best-effort, falls back to original order on error)
+    const reranked = mode === 'keyword'
+      ? raw
+      : await rerankResults(trimmedQuery, raw)
 
     const response: SearchResponse = {
-      results,
-      query: query.trim(),
+      results: reranked.slice(0, limit),
+      query: trimmedQuery,
     }
 
     return NextResponse.json(response)

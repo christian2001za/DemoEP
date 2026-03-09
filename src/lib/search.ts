@@ -44,29 +44,57 @@ function extractFtsKeywords(query: string, maxTerms = 4): string {
   return unique.slice(0, maxTerms).join(' OR ')
 }
 
-// Hybrid search: Reciprocal Rank Fusion of semantic (pgvector) + keyword (FTS)
-// This is the primary search function.
+// Semantic-first threshold: if the top semantic result scores at or above this
+// cosine-similarity value we trust semantic search alone and skip keyword mixing.
+const SEMANTIC_FIRST_THRESHOLD = 0.45
+
+// Hybrid search: semantic-first with weighted RRF fallback.
+// Pipeline:
+//   1. Generate embedding once (shared by both stages)
+//   2. Run semantic search → check best cosine similarity
+//   3a. score >= threshold → return semantic results directly (no keyword noise)
+//   3b. score < threshold → run weighted RRF hybrid (semantic_k=20, keyword_k=60)
 export async function hybridSearch(
   query: string,
-  matchCount = 5,
-  rrfK = 60
+  matchCount = 5
 ): Promise<SearchResult[]> {
-  const [queryEmbedding] = await Promise.all([generateEmbedding(query)])
-  const ftsQuery = extractFtsKeywords(query)
   const supabase = createAdminClient()
 
-  const { data, error } = await supabase.rpc('hybrid_search', {
+  // Generate embedding once — reused in both semantic probe and hybrid RPC
+  const queryEmbedding = await generateEmbedding(query)
+
+  // Stage 1: semantic probe (fetch a few extra candidates)
+  const { data: semData, error: semError } = await supabase.rpc('match_documents', {
+    query_embedding: queryEmbedding,
+    match_threshold: 0.1,   // low threshold so we always get candidates
+    match_count: matchCount + 5,
+  })
+
+  if (semError) throw new Error(`Semantic probe failed: ${semError.message}`)
+
+  const semResults = (semData ?? []) as SearchResult[]
+  const bestSemanticScore = semResults[0]?.similarity ?? 0
+
+  // Stage 2a: semantic score is strong enough — skip keyword mixing
+  if (bestSemanticScore >= SEMANTIC_FIRST_THRESHOLD) {
+    return semResults.slice(0, matchCount)
+  }
+
+  // Stage 2b: semantic score too low — fall back to weighted hybrid RRF
+  // semantic_rrf_k=20 (lower = heavier weight), rrf_k=60 for keyword
+  const ftsQuery = extractFtsKeywords(query)
+
+  const { data: hybridData, error: hybridError } = await supabase.rpc('hybrid_search', {
     query_text: ftsQuery,
     query_embedding: queryEmbedding,
     match_count: matchCount,
-    rrf_k: rrfK,
+    rrf_k: 60,
+    semantic_rrf_k: 20,
   })
 
-  if (error) {
-    throw new Error(`Hybrid search failed: ${error.message}`)
-  }
+  if (hybridError) throw new Error(`Hybrid search failed: ${hybridError.message}`)
 
-  return (data ?? []) as SearchResult[]
+  return (hybridData ?? []) as SearchResult[]
 }
 
 // Pure keyword search — uses PostgreSQL FTS without semantic understanding.
